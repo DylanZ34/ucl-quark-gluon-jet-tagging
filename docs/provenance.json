@@ -1,0 +1,252 @@
+[
+  {
+    "source": "cms_open_data_work/calculate_substructure_features.py",
+    "destination": "src/preprocessing/calculate_substructure_features.py",
+    "source_sha256": "e464b8f28a364a7d454c47e8fc9c314294d5506d5edf299707f0c11ad9c48ad7"
+  },
+  {
+    "source": "cms_open_data_work/plot_histograms.py",
+    "destination": "src/preprocessing/plot_histograms.py",
+    "source_sha256": "450015b32a36fc517d91038913de98b00c05931a2377511540a0bf76f80587a9"
+  },
+  {
+    "source": "cms_open_data_work/plot_substructure.py",
+    "destination": "src/preprocessing/plot_substructure.py",
+    "source_sha256": "9da7b9a98d3c795f8dcdcb525701626b3f30cbd19d6ebab6d70c9ff0794441f5"
+  },
+  {
+    "source": "cms_open_data_work/python make_figure1.py",
+    "destination": "src/preprocessing/make_figure1.py",
+    "source_sha256": "f4d14d6f61804bda31931f37c10baa8fd3e9572ccff83ba05ee475a298a96e26"
+  },
+  {
+    "source": "cms_open_data_work/run_kmeans.py",
+    "destination": "src/preprocessing/run_kmeans.py",
+    "source_sha256": "58dc42b79009f8aae9afe48b38e5123b83f304b7f85f58a6860a04514029da05"
+  },
+  {
+    "source": "cms_open_data_work/run_kmeans_log.py",
+    "destination": "src/preprocessing/run_kmeans_log.py",
+    "source_sha256": "047cb6459201a2a6fe7d6e01239f6e900eda7974b3872a4be107638a358ce672"
+  },
+  {
+    "source": "cms_open_data_work/run_analysis.sh",
+    "destination": "src/cmssw/run_analysis.sh",
+    "source_sha256": "507700ea91d8d654a78db576ca5f586bc781819da4131cf015971d5645b9ca54"
+  },
+  {
+    "source": "cms_jet_ml/calculate_extended_features.py",
+    "destination": "src/models/calculate_extended_features.py",
+    "source_sha256": "24eeb1cd2406bb6a931969cafd8265fc6f43ece732fb571bde62c03d5666e05c"
+  },
+  {
+    "source": "cms_jet_ml/check_environment.py",
+    "destination": "src/models/check_environment.py",
+    "source_sha256": "42c29cbdc194c22ddb6ae3ef254718aba7633fe158398cdfd5b41412e8dfdcba"
+  },
+  {
+    "source": "cms_jet_ml/compare_all_methods.py",
+    "destination": "src/models/compare_all_methods.py",
+    "source_sha256": "c552f3bcac5779519b41c29db85a6a6a83523aefd6cb429f1864a15cae3328ae"
+  },
+  {
+    "source": "cms_jet_ml/plot_extended_features.py",
+    "destination": "src/models/plot_extended_features.py",
+    "source_sha256": "b36575eb83c22e68c81d1b11842651dc37f731af9b8661449a02b04cd001a61c"
+  },
+  {
+    "source": "cms_jet_ml/plot_supervised_results.py",
+    "destination": "src/models/plot_supervised_results.py",
+    "source_sha256": "c41ff778cc995dcca94a7f1feaf6c10137315a7f4c9c33885a345e5ae96f1af2"
+  },
+  {
+    "source": "cms_jet_ml/scan_transformer_hyperparameters.py",
+    "destination": "src/models/scan_transformer_hyperparameters.py",
+    "source_sha256": "767d987d9e877d8c63b656259ef0e7062905f163763d061fdf6fe143cc96eb12"
+  },
+  {
+    "source": "cms_jet_ml/train_supervised_baseline.py",
+    "destination": "src/models/train_supervised_baseline.py",
+    "source_sha256": "77a042190bc03daebdab8b65df2d6eb69f998d56ac65f9d7d86b2b9e4d07d71f"
+  },
+  {
+    "source": "cms_jet_ml/train_transformer_constituents.py",
+    "destination": "src/models/train_transformer_constituents.py",
+    "source_sha256": "213368f0652b1330c8d6191f4941442252330b300eeac0c842b86a35e96ad61a"
+  },
+  {
+    "source": "cms_jet_ml/method_comparison_results_with_eta/all_methods_summary_with_eta.csv",
+    "destination": "results/method_comparison_results_with_eta/all_methods_summary_with_eta.csv",
+    "source_sha256": "5f89560670b7ad72011ff8d69d6649bb8dad2566f643842240f0455314a16c4a"
+  },
+  {
+    "source": "cms_jet_ml/method_comparison_results/all_methods_summary.csv",
+    "destination": "results/method_comparison_results/all_methods_summary.csv",
+    "source_sha256": "fcd77ce035898af83f730591bbb2365ac8e7f69a22b1943dc32808a68f0a7ed4"
+  },
+  {
+    "source": "cms_jet_ml/method_comparison_results/all_methods_summary_with_transformer.csv",
+    "destination": "results/method_comparison_results/all_methods_summary_with_transformer.csv",
+    "source_sha256": "635d6703be9a5fabc2b6fe51d93ecba9cf650bb7b80b237983eeb35ee5f95c82"
+  },
+  {
+    "source": "cms_jet_ml/supervised_baseline_results/model_summary.csv",
+    "destination": "results/supervised_baseline_results/model_summary.csv",
+    "source_sha256": "c2382ada711b2fe069699fdc2b361b467619e04b05b071911eabd323ff39cdaa"
+  },
+  {
+    "source": "cms_jet_ml/supervised_extended_results/model_summary.csv",
+    "destination": "results/supervised_extended_results/model_summary.csv",
+    "source_sha256": "658ec8c51aeb5d7b0b71ba53e03fe9604bc27edb7738ac4cd7d4ad1cf2342cf5"
+  },
+  {
+    "source": "cms_jet_ml/supervised_extended_results/random_forest_feature_importance.csv",
+    "destination": "results/supervised_extended_results/random_forest_feature_importance.csv",
+    "source_sha256": "e2167e42aa9da97d2ea76c30c64ecb456c0e6123d4d975930aa8bee1e87a1ec4"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/best_transformer_summary.csv",
+    "destination": "results/transformer_hyperparameter_scan/best_transformer_summary.csv",
+    "source_sha256": "29461284a5573e1fef79f209d234769d6bdfe2c641fec6661724d00fa4522fcb"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/transformer_scan_summary.csv",
+    "destination": "results/transformer_hyperparameter_scan/transformer_scan_summary.csv",
+    "source_sha256": "f78ed1192d02a6082b4f2ad4096dd2360c91bf670993a94a5e14e31e1c0d13d5"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/transformer_scan_summary_sorted_by_val_auc.csv",
+    "destination": "results/transformer_hyperparameter_scan/transformer_scan_summary_sorted_by_val_auc.csv",
+    "source_sha256": "747f3c7f89dd0eb6326c8b289180870843d6b6c0560cb98a9e44e12bd76ca787"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d32_h2_l1_c30_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d32_h2_l1_c30_history.csv",
+    "source_sha256": "2075484d162d2e2c47333c11ef2191ab248e7f1c17d06253018b30e2e81ad7bd"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d32_h2_l1_c50_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d32_h2_l1_c50_history.csv",
+    "source_sha256": "adda82651dbb55ee7c44e8b2ad3816fbc177ac34ce083cad250e87afa94513a3"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d32_h2_l2_c30_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d32_h2_l2_c30_history.csv",
+    "source_sha256": "a49680148cfa43cd08fe566517802cb0e0a2ebef882fb16faddb3cfaf96c721d"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d32_h2_l2_c50_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d32_h2_l2_c50_history.csv",
+    "source_sha256": "ad5c771c013da655ac72806fef4fdca093649e244830e2d77f8cf18ffd8b6614"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d32_h4_l1_c30_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d32_h4_l1_c30_history.csv",
+    "source_sha256": "df41b2773fb998c752837a97daffe244ab05c9242c8ebcbd7d739dc72e106bed"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d32_h4_l1_c50_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d32_h4_l1_c50_history.csv",
+    "source_sha256": "318940e85df71486dba11a03f9ca53229d0de8082f76c4d2acebe4f674a986fb"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d32_h4_l2_c30_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d32_h4_l2_c30_history.csv",
+    "source_sha256": "69433a647c80b49ba15c4f9dccfe9ca97b487b50e7b4a8d515e40ac0d493ede9"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d32_h4_l2_c50_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d32_h4_l2_c50_history.csv",
+    "source_sha256": "64e43aa8918c2cbc92317dde05f985ffb7b65ed11f767e2827cebe2d11a67328"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d64_h2_l1_c30_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d64_h2_l1_c30_history.csv",
+    "source_sha256": "a675c236403c4de8a6b96f2a7987df4d9529b91d72350c8d964742bd7855f218"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d64_h2_l1_c50_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d64_h2_l1_c50_history.csv",
+    "source_sha256": "516e3d6c8300a9040246eb3182a977535ebbd38f7e52e7bc17962cc9cd7a6859"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d64_h2_l2_c30_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d64_h2_l2_c30_history.csv",
+    "source_sha256": "b030f4f9619d07c8759a10db5112a85f0014bac88bdb9171ba72a54741383b7e"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d64_h2_l2_c50_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d64_h2_l2_c50_history.csv",
+    "source_sha256": "ae0b5ca9953a90bc7670a7d3d542e86a15597f4c8ebb29b5bf21bed4cc6a1ab3"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d64_h4_l1_c30_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d64_h4_l1_c30_history.csv",
+    "source_sha256": "116624944a77452539d8cfc9ea42210ae16e43ae47db9e8e665bcf4e94077491"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d64_h4_l1_c50_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d64_h4_l1_c50_history.csv",
+    "source_sha256": "5104df6891335603f5861f2ac3951557df9a846c5b7710e1aec8d11a7cdd496b"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d64_h4_l2_c30_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d64_h4_l2_c30_history.csv",
+    "source_sha256": "d2072fb6e0536e3bc54a33859bc6c64fb70aad5256a33c0d4bd13956c465b4f3"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/T_d64_h4_l2_c50_history.csv",
+    "destination": "results/transformer_hyperparameter_scan/T_d64_h4_l2_c50_history.csv",
+    "source_sha256": "337823058cf8dc9109a0e5a5c39f9909ae03a96eb710721288d69403a74bdf26"
+  },
+  {
+    "source": "cms_jet_ml/transformer_constituent_results/transformer_summary.csv",
+    "destination": "results/transformer_constituent_results/transformer_summary.csv",
+    "source_sha256": "29461284a5573e1fef79f209d234769d6bdfe2c641fec6661724d00fa4522fcb"
+  },
+  {
+    "source": "cms_jet_ml/method_comparison_results_with_eta/all_methods_accuracy_and_auc_side_by_side_with_eta.png",
+    "destination": "figures/method_comparison_results_with_eta/all_methods_accuracy_and_auc_side_by_side_with_eta.png",
+    "source_sha256": "9ecd9c54c6a47c019079f4fa5c6b89c6ce0e4e2817f6e0ac3b05f8a6a206bd93"
+  },
+  {
+    "source": "cms_jet_ml/method_comparison_results_with_eta/all_methods_roc_curves_with_eta.png",
+    "destination": "figures/method_comparison_results_with_eta/all_methods_roc_curves_with_eta.png",
+    "source_sha256": "2383dc9d42c68c55a7bceeca2116225188b087f215bb7281c1b9b1f18ec30bc5"
+  },
+  {
+    "source": "cms_jet_ml/method_comparison_results_with_eta/all_methods_test_accuracy_comparison_with_eta.png",
+    "destination": "figures/method_comparison_results_with_eta/all_methods_test_accuracy_comparison_with_eta.png",
+    "source_sha256": "aa8dacc73aa152fb4e5a7517c55513980a3c344fd15372183e2c4709d7b477f0"
+  },
+  {
+    "source": "cms_jet_ml/method_comparison_results_with_eta/all_methods_test_auc_comparison_with_eta.png",
+    "destination": "figures/method_comparison_results_with_eta/all_methods_test_auc_comparison_with_eta.png",
+    "source_sha256": "ad145b6679a9595d21e8ea6e510655604265d762a4669ed3096863a0b6b1764f"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/transformer_test_auc_comparison.png",
+    "destination": "figures/transformer_hyperparameter_scan/transformer_test_auc_comparison.png",
+    "source_sha256": "5ea2f331dc1ede0d06dfa2d1b7103970a387c25887c6e0ce3a23e2f9d6cc12ef"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/transformer_validation_accuracy_comparison.png",
+    "destination": "figures/transformer_hyperparameter_scan/transformer_validation_accuracy_comparison.png",
+    "source_sha256": "10e5a61cd6715ff995bf2edfc72b5498235fcd013ec44bc190941c893e5f40dd"
+  },
+  {
+    "source": "cms_jet_ml/transformer_hyperparameter_scan/transformer_validation_auc_comparison.png",
+    "destination": "figures/transformer_hyperparameter_scan/transformer_validation_auc_comparison.png",
+    "source_sha256": "1befada164f2ad34d187d41f22eda1992e734138ee55e202e5c1ac84997cabe7"
+  },
+  {
+    "source": "cms_open_data_work/figure1_quark_gluon_substructure.png",
+    "destination": "figures/figure1_quark_gluon_substructure.png",
+    "source_sha256": "8f195abc97e0aa5dcca2868c58ca8de2ed8f9b4c444ecfb7b7994a1c18de70ba"
+  },
+  {
+    "source": "cms_open_data_work/figure1_quark_gluon_data.csv",
+    "destination": "results/figure1_quark_gluon_data.csv",
+    "source_sha256": "dfa15b1961e3862fa0cdb91474d96f43c6d1a750ece91846c94dd967f79ff306"
+  }
+]
