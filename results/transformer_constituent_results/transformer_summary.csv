@@ -1,0 +1,2 @@
+method,selected_config,selection_metric,d_model,n_heads,n_layers,max_constituents,best_epoch,train_accuracy,train_auc,val_accuracy,val_auc,test_accuracy,test_auc,constituent_pt_min,charged_only
+Transformer constituents,T_d64_h2_l1_c30,validation AUC,64,2,1,30,12,0.7433017506431574,0.7791054822136175,0.7226666666666667,0.7551796028295152,0.7377263393690499,0.7694028011884977,1.0,True
